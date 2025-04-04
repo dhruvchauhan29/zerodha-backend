@@ -14,7 +14,7 @@ const PORT=process.env.PORT || 3002;
 const uri=process.env.MONGO_URL;
 
 app.use(cors({
-    origin: 'http://localhost:3000', // Your front-end URL
+    origin: 'https://zerodha-dashboard-1.onrender.com', // Your front-end URL
     credentials: true // Allow credentials to be sent
 }));
 app.use(bodyParser.json());
